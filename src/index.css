@@ -5,8 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #010110;
+  color: White;
+  text-align: Center;
 }
 
+textarea{
+    font-size: 20px;
+    background-color: #dae6e2;
+    max-width: 90vw;
+}
+textarea:focus{
+    outline: none;
+}
+.Buttons button{
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    font: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.Buttons button:hover{
+    background: rgb(14, 146, 255);
+}
+.Buttons button:first-child:hover{
+    background: rgb(19, 248, 96);
+}
+.Buttons button:last-child:hover{
+    background: rgb(252, 27, 27);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
